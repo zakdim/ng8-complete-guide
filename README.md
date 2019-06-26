@@ -1,4 +1,8 @@
-# Ng8CompleteGuide
+# Angular 8 (formerly Angular 2) - The Complete Guide
+
+See [Udemy](https://www.udemy.com/the-complete-guide-to-angular-2/).
+
+## Ng8CompleteGuide
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
