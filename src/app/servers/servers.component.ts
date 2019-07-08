@@ -13,6 +13,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServersComponent implements OnInit {
   allowNewServer = false;
+  serverCreationStatus = 'No server was created!';
 
   constructor() {
     setTimeout(() => {
@@ -23,4 +24,12 @@ export class ServersComponent implements OnInit {
   ngOnInit() {
   }
 
+  onCreateServer(event) {
+    console.log(`Button: ${event.target}`);
+    this.serverCreationStatus = 'Server was created!';
+  }
+
+  onButtonBlur(event: any) {
+    console.log(`Button '${event.target.innerText}' blur event occurred`);
+  }
 }
